@@ -89,6 +89,7 @@
 
 .btn-link:focus {
   color: black !important;
+  font-weight: bold;
   text-decoration: none !important;
   outline: none !important;
 }
@@ -104,6 +105,16 @@
   padding-right: 5vw;
   padding-bottom: 20px;
   padding-top: 10px;
+  opacity: .6;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.intro-data-body {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
   opacity: .6;
   background-color: white;
   border-radius: 8px;
