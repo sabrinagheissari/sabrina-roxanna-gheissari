@@ -2,7 +2,7 @@
  * Colors & Fonts
  * ------------------------------------- */
 $navbar-color: black;
-$navbar-hover-color: $yellow;
+$navbar-hover-color: #8F8FFF;
 $navbar-bg: white;
 
 /* -------------------------------------
@@ -43,7 +43,7 @@ $navbar-profile-border-width: 2px;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;
-  opacity: .4;
+  opacity: .5;
 
   .navbar-nav > li > a,
   .navbar-nav > .open > a,
@@ -71,6 +71,7 @@ $navbar-profile-border-width: 2px;
   .navbar-brand:hover {
     outline: none;
     color: $navbar-color;
+    font-weight: bold;
     padding-top: $navbar-vertical-padding;
     padding-bottom: $navbar-vertical-padding;
   }
@@ -78,7 +79,7 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > li > a.btn {
     line-height: $navbar-btn-height;
     padding: 0 $navbar-btn-horizontal-padding;
-    color: $navbar-btn-color;
+    color: #8F8FFF;
     border-radius: $navbar-btn-radius;
     margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
     font-weight: bold;
@@ -115,6 +116,7 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > li > .dropdown-menu{
     border-radius: 0;
     margin-top: 10px;
+    color: #8F8FFF;
   }
 
   .navbar-nav > li > .dropdown-menu:before{
@@ -131,7 +133,13 @@ $navbar-profile-border-width: 2px;
     border-top: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
     z-index: -1;
+    color: #8F8FFF;
   }
+}
+
+.dropdown-menu > li > a:hover {
+  color: #8F8FFF;
+  background-color: white;
 }
 
 /* -------------------------------------

@@ -4,7 +4,8 @@ title: Sabrina Gheissari
 
 <div class="main-body">
   <div class="accordion" id="accordionExample">
-  <h1 style="font-size: 45px;font-weight: bold; color: white">SABRINA GHEISSARI</h1>
+  <h1 style="font-size: 4vw;font-weight: lighter; color: #8F8FFF">SABRINA ROXANNA GHEISSARI</h1>
+  <p style="font-size: 15px;font-weight: lighter; color: #8F8FFF">New York City / Tokyo / London</p>
   <img src="images/headshot.jpg" class="big-avatar" alt="">
   <div class="more-card intro-data-body">
   <p>A little about me:</p>
@@ -90,23 +91,21 @@ title: Sabrina Gheissari
       </div>
       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body data-body">
-          <ul>
-            <li>
+            <p>
               <% link_to "http://www.travva.me/" do %>
                 TRAVVA
               <% end %>
-            </li>
-            <li>
+            </p>
+            <p>
               <% link_to "https://fitpass310.herokuapp.com/" do %>
                 FITPASS TOKYO
               <% end %>
-            </li>
-            <li>
+            </p>
+            <p>
               <% link_to "https://sabby-snacks.herokuapp.com/" do %>
                 SABBY SNACKS
               <% end %>
-            </li>
-          </ul>
+            </p>
         </div>
       </div>
     </div>
@@ -130,13 +129,32 @@ title: Sabrina Gheissari
       <div class="card-header" id="headingSix">
         <h2 class="my-accordion">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            RESUME
+            INTERESTS
           </button>
         </h2>
       </div>
       <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
         <div class="card-body data-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <p>AI</p>
+          <p>Al Pacino</p>
+          <p>Code</p>
+          <p>Cultural Integration and Diversity</p>
+          <p>Fashion</p>
+          <p>Fiction</p>
+          <p>Fitness</p>
+          <p>Football (soccer)</p>
+          <p>French Indie Pop</p>
+          <p>Languages</p>
+          <p>Machine Learning</p>
+          <p>Micro Finance</p>
+          <p>Muhammad Yunus</p>
+          <p>Persian Food</p>
+          <p>Psychology</p>
+          <p>Skiing</p>
+          <p>Sushi</p>
+          <p>Sustainability</p>
+          <p>The 80s</p>
+          <p>Travel</p>
         </div>
       </div>
     </div>
@@ -145,17 +163,17 @@ title: Sabrina Gheissari
       <div class="card-header" id="headingSeven">
         <h2 class="my-accordion">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            CONTACT
+            RESUME
           </button>
         </h2>
       </div>
       <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
         <div class="card-body data-body">
-          <li>
+          <p>
             <% link_to "/images/SRG_Resume.pdf" do %>
-              HOME
+              View/Download PDF
             <% end %>
-          </li>
+          </p>
         </div>
       </div>
     </div>
@@ -174,19 +192,19 @@ title: Sabrina Gheissari
             action="https://formspree.io/sabrina.gheissari1@gmail.com"
             method="POST"
           >
-            <label>
+            <label class="form-home">
               Your Name:
-              <input type="text" name="name">
+              <input type="text" name="name" class="input-home">
             </label>
-            <label>
+            <label class="form-home">
               Your Email:
-              <input type="email" name="_replyto">
+              <input type="email" name="_replyto" class="input-home">
             </label>
-            <label>
+            <label class="form-home">
               Message:
-              <textarea name="message"></textarea>
+              <textarea name="message" placeholder="Want to work together? Looking to hire? Write to me!" class="input-home"></textarea>
             </label>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" class="send-home">
           </form>
         </div>
       </div>
