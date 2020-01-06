@@ -1,47 +1,28 @@
-<p>
-hey
-</p>
-<p>
-hey
-</p>
-<p>
-hey
-</p>
-<p>
-hey
-</p>
-<p>
 
-</p>
-<p>
-
-</p>
-<p>
-
-</p>
 <li>
   <% link_to "/index.html" do %>
-    HOME
+    <i class="fas fa-arrow-circle-left"></i>
   <% end %>
 </li>
 
-<div class="card-body data-body">
+<div class="card-body contact-form">
   <form
     action="https://formspree.io/sabrina.gheissari1@gmail.com"
     method="POST"
+    style="text-align: center"
   >
-    <label>
+    <label class="form-contact">
       Your Name:
-      <input type="text" name="name">
+      <input type="text" name="name" class="input-contact">
     </label>
-    <label>
+    <label class="form-contact">
       Your Email:
-      <input type="email" name="_replyto">
+      <input type="email" name="_replyto" class="input-contact">
     </label>
-    <label>
+    <label class="form-contact">
       Message:
-      <textarea name="message"></textarea>
+      <textarea name="message" placeholder="Want to work together? Looking to hire? Send me a message!" class="input-contact"></textarea>
     </label>
-    <input type="submit" value="Send">
+    <input type="submit" value="Send" class="send-contact">
   </form>
 </div>

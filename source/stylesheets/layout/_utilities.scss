@@ -126,6 +126,10 @@
   font-size: 15px;
 }
 
+.data-body > p > a {
+  color: #404096;
+}
+
 .intro-data-body {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -148,6 +152,17 @@
   padding: 5px;
 }
 
+.form-contact {
+  display: grid !important;
+  justify-content: center;
+  padding: 5px;
+  color: #404096;
+  border-color: #404096;
+  font-size: 17px;
+  opacity: .8;
+  font-weight: 400;
+}
+
 .input-home {
   margin-top: 5px;
   border-radius: 4px;
@@ -157,18 +172,57 @@
   padding-right: 12px;
 }
 
+.input-contact {
+  margin-top: 10px;
+  border-radius: 4px;
+  border-color: #404096;
+  color: #404096;
+  opacity: .9;
+  font-weight: 300;
+  width: 250px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .send-home {
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-right: none !important;
+  margin-left: none !important;
   border-radius: 4px;
   border-color: gray;
   color: black;
   width: 75px;
+  justify-content: center;
 }
 
 .send-home:hover {
   border-color: black;
 }
 
+.send-contact {
+  margin-top: 10px;
+  margin-right: none !important;
+  margin-left: none !important;
+  border-radius: 4px;
+  border-color: none;
+  color: #404096;
+  width: 75px;
+  justify-content: center;
+  opacity: .7;
+}
+
+.send-contact:hover {
+  border-color: #404096;
+  opacity: .9;
+}
+
 .social-logos {
   padding-right: 10px;
+}
+
+.contact-form {
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
