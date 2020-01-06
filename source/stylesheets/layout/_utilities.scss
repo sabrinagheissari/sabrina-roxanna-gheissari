@@ -25,6 +25,16 @@
   object-fit: cover;
 }
 
+.small-avatar {
+  margin: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-self: center;
+  object-position: top;
+  object-fit: cover;
+}
+
 .intro-sab {
   margin: 20px !important;
   padding-left: 25vw;
