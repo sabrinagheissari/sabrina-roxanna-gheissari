@@ -43,7 +43,7 @@ $navbar-profile-border-width: 2px;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;
-  opacity: .5;
+  opacity: .7;
 
   .navbar-nav > li > a,
   .navbar-nav > .open > a,
@@ -113,10 +113,12 @@ $navbar-profile-border-width: 2px;
     background: transparent;
   }
 
+
   .navbar-nav > li > .dropdown-menu{
     border-radius: 0;
     margin-top: 10px;
     color: #8F8FFF;
+    opacity: none !important;
   }
 
   .navbar-nav > li > .dropdown-menu:before{
