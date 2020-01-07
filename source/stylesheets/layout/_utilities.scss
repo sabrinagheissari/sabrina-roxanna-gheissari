@@ -26,9 +26,8 @@
 }
 
 .small-avatar {
-  margin: 30px;
-  width: 150px;
-  height: 150px;
+  width: 15vw;
+  height: 24vw;
   border-radius: 50%;
   align-self: center;
   object-position: top;
@@ -94,7 +93,7 @@
 
 .btn-link {
   color: $gray;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn-link:hover {
@@ -237,4 +236,9 @@
 .form-contact > textarea {
   height: 150px;
   padding-top: 10px;
+}
+
+.referral-pic {
+  width: 30vw;
+  height: 30vw;
 }
