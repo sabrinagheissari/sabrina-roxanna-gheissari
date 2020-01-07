@@ -156,9 +156,12 @@ $navbar-profile-border-width: 2px;
     .navbar-brand, .navbar-brand:hover
      {
       display: block;
-      color: $navbar-color;
+      color: #8F8FFF;
       padding-top: 0;
       padding-bottom: 0;
     }
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #8F8FFF;
   }
 }

@@ -112,7 +112,7 @@
 .more-card {
   background-color: rgba(white, .5);
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
 
 .data-body {
@@ -197,20 +197,29 @@
   border-color: black;
 }
 
+.input-contact {
+  border: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
 .send-contact {
   margin-top: 10px;
   margin-right: none !important;
   margin-left: none !important;
   border-radius: 4px;
-  border-color: none;
+  border-color: #404096;
   color: #404096;
-  width: 75px;
+  width: 100px;
   justify-content: center;
   opacity: .7;
+  background-color: transparent;
+  font-size: 17px;
 }
 
 .send-contact:hover {
   border-color: #404096;
+  background-color: #404096;
+  color: white;
   opacity: .9;
 }
 
@@ -223,4 +232,9 @@
   margin-right: 30vw;
   margin-top: 30vh;
   margin-bottom: 30vh;
+}
+
+.form-contact > textarea {
+  height: 150px;
+  padding-top: 10px;
 }
